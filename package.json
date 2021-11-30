@@ -1,12 +1,11 @@
 {
   "name": "vue-test-utils",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuejs/vue-test-utils.git"
+    "url": "https://github.com/swunderlich/vue-test-utils"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",

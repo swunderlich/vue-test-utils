@@ -1,11 +1,12 @@
 import Vuex from 'vuex'
 import { render, renderToString, config } from '../'
 import { normalOptions, functionalOptions, Normal, ClassComponent } from './resources'
+import * as Cheerio from 'cheerio'
 
 const store = new Vuex.Store({})
 
 async function test () {
-  const renderResult: Cheerio = await render(
+  const renderResult: typeof Cheerio = await render(
     {
       template: '<p>foo</p>'
     },
